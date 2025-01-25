@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>blueBox</h2>
+        <div class="profile">
+            <img src="image.avif" alt="Angellina Doe">
+            <div class="details">
+                <h3>Angellina Doe</h3>
+                <p>Product Manager</p>
+            </div>
+        </div>
+        <a href="#">Dashboard</a>
+        <a href="#">UI Elements</a>
+        <a href="#">Components</a>
+        <a href="#">Forms</a>
+        <a href="#">Data Table</a>
+        <a href="#">Icons</a>
+        <a href="#">Sample Page</a>
+        <button id="addProjectButton">Add Project</button>
+    </div>
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="header-bar">
+            <div class="search-bar">
+                <img src="search-interface-symbol.png" alt="Search Icon">
+                <input type="text" placeholder="Search...">
+            </div>
+            <img src="image.avif" alt="Angellina Doe" style="height: 30px; width: 30px; border-radius: 50px;">
+            <div class="icons">
+                <img src="notification.png" alt="Notifications">
+                <img src="settings.png" alt="Settings">
+                <img src="email.png" alt="Messages">
+            </div>
+        </div>
+        <!-- Cards -->
+        <div class="cards">
+            <div class="card">
+                <h3>Stock Total</h3>
+                <p class="value">$150,000</p>
+                <p class="increase">Increased by 60%</p>
+            </div>
+            <div class="card">
+                <h3>Total Profit</h3>
+                <p class="value">$25,000</p>
+                <p class="increase">Increased by 30%</p>
+            </div>
+            <div class="card">
+                <h3>Unique Visitors</h3>
+                <p class="value">250,000</p>
+                <p class="increase">Increased by 80%</p>
+            </div>
+        </div>
+        <!-- Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>User Type</th>
+                    <th>Joined</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mike Stuart</td>
+                    <td>mikestuart@mail.com</td>
+                    <td>Admin</td>
+                    <td>25 Apr, 2018</td>
+                    <td><span class="status pending">Pending</span></td>
+                </tr>
+                <tr>
+                    <td>Andrew Strauss</td>
+                    <td>info@yourmail.com</td>
+                    <td>Editor</td>
+                    <td>25 Apr, 2018</td>
+                    <td><span class="status approved">Approved</span></td>
+                </tr>
+                <tr>
+                    <td>Ross Kopelman</td>
+                    <td>rosskop@mail.com</td>
+                    <td>Subscriber</td>
+                    <td>25 Apr, 2018</td>
+                    <td><span class="status approved">Approved</span></td>
+                </tr>
+                <tr>
+                    <td>Mike Hussey</td>
+                    <td>mikehussy@mail.com</td>
+                    <td>Subscriber</td>
+                    <td>25 Apr, 2018</td>
+                    <td><span class="status rejected">Rejected</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
